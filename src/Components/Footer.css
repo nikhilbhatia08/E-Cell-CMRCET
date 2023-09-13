@@ -1,0 +1,29 @@
+@font-face {
+    font-family: FontBold;
+    src: url('/Users/nehabhatia/Desktop/E-cell project/client/src/Components/GlacialIndifference-Bold.otf');
+}
+@font-face {
+    font-family: FontItalic;
+    src: url('/Users/nehabhatia/Desktop/E-cell project/client/src/Components/GlacialIndifference-Italic.otf');
+}
+@font-face {
+    font-family: FontRegular;
+    src: url('/Users/nehabhatia/Desktop/E-cell project/client/src/Components/GlacialIndifference-Regular.otf');
+}
+
+.footer{
+    background-image: linear-gradient(to bottom right, #0100EC, #FB36F4);
+    color: white;
+    margin-top: 40px;
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.g1{
+    margin-top: 60px;
+    font-family: FontBold;
+    font-size: 40px;
+}

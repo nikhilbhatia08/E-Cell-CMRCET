@@ -1,0 +1,66 @@
+@font-face {
+    font-family: FontBold;
+    src: url('/Users/nehabhatia/Desktop/E-cell project/client/src/Components/GlacialIndifference-Bold.otf');
+}
+@font-face {
+    font-family: FontItalic;
+    src: url('/Users/nehabhatia/Desktop/E-cell project/client/src/Components/GlacialIndifference-Italic.otf');
+}
+@font-face {
+    font-family: FontRegular;
+    src: url('/Users/nehabhatia/Desktop/E-cell project/client/src/Components/GlacialIndifference-Regular.otf');
+}
+
+.Nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: fit-content;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: FontBold;
+}
+
+.ii{
+    height: 100px;
+    width: auto;
+}
+
+.fro{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-family: FontRegular;
+    color: black;
+}
+.space{
+    margin-left: 20px;
+    color: black;
+}
+
+.back{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 100px;
+    font-family: FontRegular;
+    text-decoration: none;
+}
+
+.login{
+    border: 1.6px solid rgba(13, 80, 205, 0.776);
+    background: rgba(12, 144, 206, 0.243);
+    padding: 10px;
+    color: rgb(58, 144, 210);
+    border-radius: 5px;
+}

@@ -1,0 +1,49 @@
+@font-face {
+    font-family: FontBold;
+    src: url('/Users/nehabhatia/Desktop/E-cell project/client/src/Components/GlacialIndifference-Bold.otf');
+}
+@font-face {
+    font-family: FontItalic;
+    src: url('/Users/nehabhatia/Desktop/E-cell project/client/src/Components/GlacialIndifference-Italic.otf');
+}
+@font-face {
+    font-family: FontRegular;
+    src: url('/Users/nehabhatia/Desktop/E-cell project/client/src/Components/GlacialIndifference-Regular.otf');
+}
+
+.card_rectangular{
+    width: 300px;
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    min-height: fit-content;
+    height: 300px;
+    border-radius: 10px;
+    background-color: white;
+    font-family: FontRegular;
+    align-items: center;
+
+}
+
+.img_of_card{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.btn_of_card{
+    width: fit-content;
+    height: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.btn_of_card:hover{
+    background-color: black;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+

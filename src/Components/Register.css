@@ -1,0 +1,92 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reg{
+    height: 70vh;
+    width: 35vw;
+    background-color: blue;
+    margin: auto;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 49.5%, 0% 82.8%);
+    background: #6190E8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A7BFE8, #6190E8);
+}
+
+.circle{
+    height: 20vh;
+    width: 12vw;
+    background-color: white;
+    border-radius: 100%;
+    margin-left: 4vw;
+    margin-top: 5vh;
+    background: #2a47d9;
+    background: -webkit-linear-gradient(0deg, #2a47d9 0%, #49c8db 100%);
+    background: linear-gradient(0deg, #2a47d9 0%, #49c8db 100%);
+}
+
+.circle2{
+    height: 20vh;
+    width: 12vw;
+    background-color: white;
+    border-radius: 50px 10px 30px 70px;
+    margin-left: 13vw;
+    margin-top: 10vh;
+    background: #2a47d9;
+    background: -webkit-linear-gradient(0deg, #2a47d9 0%, #49c8db 100%);
+    background: linear-gradient(0deg, #2a47d9 0%, #49c8db 100%);
+    margin-top: 10vh;
+}
+
+.sett{
+    height: 60vh;
+    width: 30vw;
+    backdrop-filter: blur(6.9px);
+    -webkit-backdrop-filter: blur(6.9px);
+    border: 1px solid rgba(255, 255, 255, 0.38);
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    margin-top: -63vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.em2{
+    margin-top: 10px;
+    width: 20vw;
+    height: 40px;
+    padding: 7px;
+    color: black;
+    /* font-family: 'Courgette', cursive;
+    font-family: 'Public Sans', sans-serif;
+    font-family: 'Rubik', sans-serif; */
+    font-weight: bold;
+    font-size: large;
+    backdrop-filter: blur(6.9px);
+    -webkit-backdrop-filter: blur(6.9px);
+    border: 1px solid rgba(255, 255, 255, 0.38);
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.btn_of_reg{
+    background: #6190E8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 1px ;
+    font-family: 'Courgette', cursive;
+    font-family: 'Public Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: larger;
+    color: white;
+    height: 35px;
+    width: 20vw;
+    border-radius: 7px;
+    margin-top: 1.1vw;
+}

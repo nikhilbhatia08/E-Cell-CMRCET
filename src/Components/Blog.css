@@ -1,0 +1,87 @@
+@font-face {
+    font-family: FontBold;
+    src: url('/Users/nehabhatia/Desktop/E-cell project/client/src/Components/GlacialIndifference-Bold.otf');
+}
+@font-face {
+    font-family: FontItalic;
+    src: url('/Users/nehabhatia/Desktop/E-cell project/client/src/Components/GlacialIndifference-Italic.otf');
+}
+@font-face {
+    font-family: FontRegular;
+    src: url('/Users/nehabhatia/Desktop/E-cell project/client/src/Components/GlacialIndifference-Regular.otf');
+}
+
+.Page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    align-items: center;
+    margin-left: 7vw;
+    width: 85vw;
+    height: 100vh;
+}
+.b1{
+    font-family: FontBold;
+    color: rgb(73, 71, 71);
+}
+
+.pic_of_arr{
+    background-color: aqua;
+    mix-blend-mode: hard-light;
+    opacity: 0.5;
+    height: 90px;
+}
+
+.b2{
+    font-family: FontBold;
+    font-size: 50px;
+    color: rgb(73, 71, 71);
+}
+
+.set{
+    display: flex;
+    flex-direction: row;
+    margin-left: 6vw;
+    margin-top: -3vw;
+}
+
+.b3{
+    margin-top: -20px;
+    font-family: FontRegular;
+    color: rgb(73, 71, 71);
+}
+
+.mainCard{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    background-image: url('/Users/nehabhatia/Desktop/E-cell project/client/src/Pictures/photo-1513530534585-c7b1394c6d51.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-clip: border-box;
+    width: 80vw;
+    border-radius: 10px;
+    background-clip: border-box;
+}
+.write{
+    font-family: FontRegular;
+    margin-top: 37vh;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+
+.blog-cards{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foot{
+    width: 100vw;
+    height: 100px;
+}

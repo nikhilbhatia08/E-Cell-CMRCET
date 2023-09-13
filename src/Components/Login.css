@@ -1,0 +1,182 @@
+@font-face {
+    font-family: FontBold;
+    src: url('/Users/nehabhatia/Desktop/E-cell project/client/src/Components/GlacialIndifference-Bold.otf');
+}
+@font-face {
+    font-family: FontItalic;
+    src: url('/Users/nehabhatia/Desktop/E-cell project/client/src/Components/GlacialIndifference-Italic.otf');
+}
+@font-face {
+    font-family: FontRegular;
+    src: url('/Users/nehabhatia/Desktop/E-cell project/client/src/Components/GlacialIndifference-Regular.otf');
+}
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Public+Sans:wght@300&family=Rubik:wght@400;500;700&display=swap');
+
+.login_page{
+    width: 70vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    margin-left: 15vw;
+    background-color: rgb(243, 243, 243);
+}
+
+.part1{
+    background: #6190E8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    width: 35vw;
+    height: 80vh;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+
+.sub_p1{
+    width: 30vw;
+    height: 60vh;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.9px);
+    -webkit-backdrop-filter: blur(6.9px);
+    border: 1px solid rgba(255, 255, 255, 0.38);
+}
+
+.e1{
+    text-align: left;
+    margin-left: 5vw;
+    font-family: 'Courgette', cursive;
+font-family: 'Public Sans', sans-serif;
+font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 50px;
+}
+
+.e2{
+    font-family: 'Courgette', cursive;
+    font-family: 'Public Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    text-align: left;
+    margin-left: 5vw;
+    padding-top : 0;
+    color: rgb(63, 61, 61);
+    font-size: 2.5rem;
+}
+
+.greet{
+    margin-top: 7vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.wave{
+    height: 40px;
+    mix-blend-mode: darken;
+    margin-right: 10px;
+}
+
+.l2{
+    font-family: 'Courgette', cursive;
+    font-family: 'Public Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(73, 66, 66);
+    margin-top: -10px;
+}
+
+.para{
+    text-align: left;
+    margin-left: 5vw;
+}
+
+.cred{
+    margin-left: 5vw;
+}
+
+.pass{
+    margin-left: 5vw;
+}
+
+.l11{
+    font-family: 'Courgette', cursive;
+    font-family: 'Public Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(73, 66, 66);
+}
+
+.em1{
+    margin-top: 10px;
+    width: 20vw;
+    height: 40px;
+    padding: 7px;
+    font-family: 'Courgette', cursive;
+    font-family: 'Public Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.btn_of_login{
+    background: #6190E8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 1px ;
+    font-family: 'Courgette', cursive;
+    font-family: 'Public Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: larger;
+    color: white;
+    height: 35px;
+    width: 20vw;
+    margin-left: 5vw;
+    border-radius: 7px;
+}
+
+.special{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Courgette', cursive;
+    font-family: 'Public Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: larger;
+    margin-left: 5vw;
+}
+.special:before ,.special:after{
+    content: "";
+  flex: 1 1;
+  border-bottom: 1px solid;
+  margin: auto;
+}
+.l1{
+    color : red;
+    justify-content: flex-start;
+}
+.special:before{
+    margin-right: 10px;
+}
+.special:after{
+    margin-left: 10px
+}
+
+.goog{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+    width: 21vw;
+    font-family: 'Courgette', cursive;
+    font-family: 'Public Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: larger;
+    margin-left: 5vw;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}

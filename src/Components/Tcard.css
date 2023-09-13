@@ -1,0 +1,72 @@
+
+.t_card{
+    /* backdrop-filter: blur(6.9px);
+    -webkit-backdrop-filter: blur(6.9px); */
+    border: 1.6px solid rgb(58, 144, 210);
+    background: rgba(12, 144, 206, 0.243);
+    height: 290px;
+    width: 300px;
+    border-radius: 9px 9px 9px 9px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.2s ease-in-out;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.img_of_president{
+    margin-top: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    border: 1px solid rgba(12, 144, 206, 0.243);
+    /* box-shadow: 0 0 60px 10px #48abe0; */
+}
+
+.name_of_pres{
+    /* margin-top: 8vh; */
+    color: rgb(58, 144, 210);
+}
+
+.icons{
+    /* background: rgba(12, 144, 206, 0.243); */
+    -webkit-backdrop-filter: blur(6.9px);
+    backdrop-filter: blur(6.9px);
+    /* border: 1.6px solid rgba(13, 80, 205, 0.776); */
+    /* width: 10vw;
+    height: 7vh; */
+    border-radius: 10px;
+    /* margin-left: 5vw;
+    margin-bottom: 2vh; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.inst{
+    height: 5vh;
+    padding-right: 3px;
+    border-right: 1px solid rgb(82, 120, 190);
+}
+
+.meta{
+    margin-left: 0.3vw;
+    height: 5vh;
+    padding-right: 3px;
+    border-right: 1px solid rgb(82, 120, 190);
+}
+
+.mail{
+    height: 5vh;
+    padding-right: 3px;
+    margin-left: 0.3vw;
+}
+
+.t_card:hover{
+    transition: 0.2s ease-in-out;
+    -webkit-box-shadow: 12px 12.5px 11.5px 7px #dddddd;
+    -moz-box-shadow: 12px 12.5px 11.5px 7px #dddddd;
+    box-shadow: 12px 12.5px 11.5px 7px #dddddd;
+}
+
